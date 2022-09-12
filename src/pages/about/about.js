@@ -58,7 +58,7 @@ const About = () => {
             </div>
 
             <div className="projects">
-              <a href="https://github.com/BunyaminMete/Music-Player">
+              <a href="https://bunyaminmete.github.io/pokeAPI/">
                 <img
                   className="images"
                   alt="project3"
