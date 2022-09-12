@@ -23,10 +23,9 @@ const About = () => {
         alt="bg2"
         src="https://img2.goodfon.com/original/1920x1080/5/a4/tekstura-fon-cvet-chernyy.jpg"
       ></img>
-      {console.log(sliderEffect)}
 
       <div>
-        <p ref={sliderEffect} id="About">
+        <div ref={sliderEffect} id="About">
           Currently I'm studying for Software Enginerring at <br /> Istinye University .
           <br /> I did some projects by using React. <br />
           <br /> Here are the projects that I did.
@@ -72,7 +71,7 @@ const About = () => {
               </span>
             </div>
           </div>
-        </p>
+        </div>
       </div>
     </>
   );
