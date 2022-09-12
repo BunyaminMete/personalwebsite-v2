@@ -4,12 +4,13 @@ import HomePage from './pages/header/home';
 import './style/main.css';
 import SayHello from './pages/home/home';
 import About from './pages/about/about';
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <>
+  <BrowserRouter basename='/index.html'>
     <HomePage />
     <SayHello />
     <About />
-  </>,
+  </BrowserRouter>,
 );

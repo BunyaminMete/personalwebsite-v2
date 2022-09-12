@@ -10,7 +10,7 @@
 #About{
     color: rgb(0, 255, 119);
     position: relative;
-    top: 1000px;
+    top: 1200px;
     font-size: 40px;
     text-align: center;
 }
@@ -18,7 +18,7 @@
 #sliderAbout{
     color: rgb(0, 255, 119);
     position: relative;
-    top: 1000px;
+    top: 1200px;
     font-size: 40px;
     text-align: center;
     animation: slide-left 1s;
