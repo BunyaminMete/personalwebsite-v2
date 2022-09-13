@@ -44,7 +44,7 @@ const About = () => {
               </span>
             </div>
             <div className="projects">
-              <a href="https://github.com/BunyaminMete/Highlighter-Project-For-Hubstudio">
+              <a href="https://bunyaminmete.github.io/Highlighter-Project-For-Hubstudio">
                 <img
                   className="images"
                   alt="project2"
@@ -58,7 +58,7 @@ const About = () => {
             </div>
 
             <div className="projects">
-              <a href="https://bunyaminmete.github.io/pokeAPI/">
+              <a href="https://bunyaminmete.github.io/Music-Player/">
                 <img
                   className="images"
                   alt="project3"
@@ -70,6 +70,21 @@ const About = () => {
                 Project 3
               </span>
             </div>
+
+            <div className="projects">
+              <a href="https://bunyaminmete.github.io/pokeAPI/">
+                <img
+                  className="images"
+                  alt="project3"
+                  src="https://user-images.githubusercontent.com/108274379/188894030-525c0f14-a85e-4afe-9860-88159919efd6.png"
+                ></img>
+              </a>
+              <span>
+                <br />
+                Project 4
+              </span>
+            </div>
+
           </div>
         </div>
       </div>
