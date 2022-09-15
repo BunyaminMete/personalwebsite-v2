@@ -1,5 +1,5 @@
 .Navbar{
-    background-image: linear-gradient(to right, black , rgb(60, 59, 59));
+    background-image: linear-gradient(to right, rgb(252, 164, 250) , rgb(122, 252, 126));
     width: 100%;
     height: 70px;
     position: fixed;
@@ -9,38 +9,110 @@
     z-index: 1;
 }
 
+.rel{
+    margin-top: 70px;
+}
+
 ul{
+    text-align: center;
+    margin: 0%;
     list-style-type: none;
+    /* background-color: green; */
+}
+
+li{
+    margin-top: 10px;
+    float: right;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.rightlist{
+    margin-top: 12px;
+    float: left;
+}
+
+.rightlist > img {
+    width: 45px;
+}
+
+.leftlogo > button > img{
+    width: 45px;
+}
+
+.leftlogo > button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+
+.leftlogo{
+    display: none;
 }
 
 
- li{
-     float:left;
-     padding: 10px;
- }
-
- .bmtlogo{
-     position: absolute;
-     left: 43%;
-     width: 100px;
- }
- 
- .bmt{
-     width: 300px;
- }
-
- .linkarea{
-     float: right;
- }
-
  li a{
-     color: rgb(0, 255, 119);
-     text-decoration: none;
- }
+     font-size: 16px;
+    color: rgb(52, 111, 80);
+    text-decoration: none;
+    font-size: calc();
+}
 
-.bg1{
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
+
+
+
+@media screen and (max-width:425px) {
+    .lists{
+        position: relative;
+        width: 100%;
+        margin-top: -10px;
+        background-color: rgb(125, 83, 124);
+        /* animation: oyunhavasi 3s infinite; */
+        padding: 20px;
+        left: 10px;
+        
+
+    }
+    
+
+    @keyframes oyunhavasi{
+        0% {transform:translateX(-5%);}
+        25% {transform:translateX(0%);}
+        50% {transform:translateX(5%);}
+        75% {transform:translateX(0%);}
+        100% {transform:translateX(-5%);}
+
+
+    }
+
+    li a{
+        color: rgb(164, 255, 164);
+    }
+
+    .list1{
+        top: 185%;
+    }
+
+    .list2{
+        top: 135%;
+    }
+
+    .list3{
+        top: 85%;
+    }
+
+    .rightlist{
+        display: inline-block;
+    }
+
+    .leftlogo > button {
+        display: inline-block;
+    }
+    .leftlogo{
+        display: inline-block;
+        margin-top: 5px;
+    } 
+
+
 }
