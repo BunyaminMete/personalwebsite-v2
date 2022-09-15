@@ -1,13 +1,15 @@
 body {
-    font-family: 'Holtwood One SC';font-size: 20px;
-    background-color: rgb(76, 57, 76) ;
-    color: white;
-    width: 100%;
+  font-family: 'Holtwood One SC';
+  font-size: 20px;
+  background-color: rgb(76, 57, 76);
+  color: white;
+  width: 100%;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 html {
-    scroll-behavior: smooth;
-  }
-
-
-
+  scroll-behavior: smooth;
+}

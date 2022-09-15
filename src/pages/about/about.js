@@ -1,5 +1,5 @@
-import "./style.css";
-import React from "react";
+import './style.css';
+import React from 'react';
 
 const About = () => {
   const sliderEffect = React.useRef();
@@ -10,9 +10,9 @@ const About = () => {
 
   const sliderFunction = () => {
     if (document.documentElement.scrollTop > 1000) {
-      sliderEffect.current.id = "sliderAbout";
+      sliderEffect.current.id = 'sliderAbout';
     } else {
-      sliderEffect.current.id = "About";
+      sliderEffect.current.id = 'About';
     }
   };
 
@@ -26,8 +26,7 @@ const About = () => {
 
       <div>
         <div ref={sliderEffect} id="About">
-          Currently I'm studying for Software Enginerring at <br /> Istinye
-          University .
+          Currently I'm studying for Software Enginerring at <br /> Istinye University .
           <br /> I did some projects by using React. <br />
           <br /> Here are the projects that I did.
           <div className="imagecontainer">
