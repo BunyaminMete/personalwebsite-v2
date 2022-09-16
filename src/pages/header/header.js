@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
-
 import './home.css';
+import projectpng from '../../assets/hub.png';
+import CardGenerator from '../../components/card-projects/card';
+import highlightpng from '../../assets/highlight.png';
 
 // let count = 0;
 
@@ -9,8 +11,8 @@ import './home.css';
 // };
 
 // const currentScroolPos = () => {
-//   if (document.documentElement.scrollTop === 100 && count === 0) {
-//     window.scrollTo(0, 1146);
+//   if (document.documentElement.scrollTop === 90.90908813476562 && count === 0) {
+//     window.scrollTo(0, document.body.scrollHeight);
 //     count += 1;
 //   }
 //   console.log(document.documentElement.scrollTop);
@@ -91,6 +93,20 @@ const HomePage = () => {
           </button>
         </div>
       </div>
+      <CardGenerator
+        description="Daily App project is the first long-time project that I did. I learned informations such as React state
+                usage, routing..."
+        image={projectpng}
+        url="https://dailyappwithreact-gu51hocr7-bunyaminmete.vercel.app/login"
+        desktopimage="https://user-images.githubusercontent.com/108274379/184619867-ddf8890d-5e2f-4e48-96ff-c59cb25de322.png"
+      />
+      <CardGenerator
+        description="Daily App project is the first long-time project that I did. I learned informations such as React state
+                usage, routing..."
+        image="https://user-images.githubusercontent.com/108274379/186110176-84dd157d-5038-48f6-845e-121347d1921d.png"
+        url="https://bunyaminmete.github.io/Highlighter-Project-For-Hubstudio/"
+        desktopimage={highlightpng}
+      />
     </>
   );
 };
