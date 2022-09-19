@@ -17,10 +17,11 @@ const CardGenerator = ({ image, description, url, desktopimage }) => {
           <div
             onMouseEnter={() => {
               window.innerWidth > 1024 &&
-                (text.current.className = 'p1-text-after')((buttonVisibility.current.style.opacity = 1));
+                (text.current.className = 'p1-text-after') &&
+                (buttonVisibility.current.style.opacity = 1);
             }}
             onMouseLeave={() => {
-              (text.current.className = 'p1-text')((buttonVisibility.current.style.opacity = 0));
+              (text.current.className = 'p1-text') && (buttonVisibility.current.style.opacity = 0);
             }}
             className="projects"
             ref={projectContainer}
@@ -33,7 +34,7 @@ const CardGenerator = ({ image, description, url, desktopimage }) => {
                 <br /> <br />
                 <button className="projectbutton" type="button" ref={buttonVisibility}>
                   <a alt="project1" href={url}>
-                    PROJECT
+                    <b>PROJECT</b>
                   </a>
                 </button>
               </div>
