@@ -7,7 +7,7 @@
 }
 
 .rel2 {
-  font-family: 'Caveat', cursive;
+
   color: black;
   width: 100vw;
   height: 100vh;
@@ -26,8 +26,7 @@
   -webkit-box-shadow: 13px 14px 19px -3px rgba(0, 130, 86, 0.78);
   -moz-box-shadow: 13px 14px 19px -3px rgba(0, 130, 86, 0.78);
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-areas: 'area1 area2';
+
 }
 
 .areas {
@@ -57,12 +56,15 @@
   padding: 1vw;
   border-radius: 4px;
   border: none;
-  opacity: 1;
+}
+
+.projectbutton:hover{
+  background-color: blueviolet;
 }
 
 .projectbutton > a {
+  font-size: 15px;
   position: relative;
-  font-family: 'Courier New', Courier, monospace;
   text-decoration: none;
   color: rgb(226, 226, 226);
 }
@@ -76,12 +78,18 @@
     width: 30vw;
   }
 
-  .projects:hover {
+  .projectsHover {
     margin-right: 500px;
     transition: 1.5s;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 500px;
+    width: 30vw;
+    
   }
 
-  .projects:hover > .card-container {
+  .card-container {
     display: flex;
     align-items: center;
     min-width: 500px;
@@ -95,27 +103,18 @@
     transition: 1.5s;
   }
 
-  .p1-text {
-    font-size: 0px;
-    display: none;
-    opacity: 0.1;
-  }
-
   .p1-text-after {
     display: block;
     color: rgb(103, 133, 179);
-    font-size: calc(1.2vw + 10px);
-    transition: 2s;
+    font-size: calc(1.2vw + 6px);
+    transition: 5s;
     opacity: 1;
     margin-left: 100px;
     text-align: center;
-    width: 40ch;
+    width: 100ch;
   }
 
-  .projectbutton {
-    opacity: 1;
-    background: rgb(63, 13, 129, 1);
-  }
+  
 }
 
 @media (min-width: 700px) and (max-width: 1023px) {

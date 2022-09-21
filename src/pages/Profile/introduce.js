@@ -9,19 +9,19 @@ export default function Introduce() {
       <div className="main-container">
         <div className="container-group">
           <div className="container" id="c1">
-            1
+            Will be updating soon.
           </div>
           <div className="container" id="c2">
-            2
+            Will be updating soon.
           </div>
           <div className="container" id="c3">
-            3
+            Will be updating soon.
           </div>
           <div className="container" id="c4">
-            4
+            Will be updating soon.
           </div>
           <div className="container" id="c5">
-            5
+            Will be updating soon.
           </div>
         </div>
       </div>

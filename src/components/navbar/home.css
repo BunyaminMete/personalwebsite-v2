@@ -17,11 +17,10 @@
     text-align: center;
     margin: 0%;
     list-style-type: none;
-    /* background-color: green; */
   }
   
   li {
-    margin-top: 10px;
+    margin-top: 15px;
     float: right;
     padding: 5px;
     margin-right: 10px;
@@ -51,12 +50,9 @@
   }
   
   li a {
-    font-family: 'Caveat', cursive;
-  
-    font-size: 26px;
-    color: rgb(52, 111, 80);
+    font-size: 20px;
+    color: rgb(18, 5, 93);
     text-decoration: none;
-    font-size: calc();
   }
  
   .name-introduce {
@@ -64,6 +60,8 @@
     animation: slidefromleft 1s;
     width: 40vw;
     text-align: center;
+    color: rgb(18, 5, 93);
+    
   }
   
   .name-introduce > span {
@@ -71,6 +69,7 @@
     top: -1.5vw;
     font-size: 1.8vw;
   }
+
   
   @keyframes slidefromleft {
     from {
@@ -94,6 +93,7 @@
   }
   
   @media screen and (max-width: 425px) {
+
     .rel {
       font-size: 5vw;
     }
@@ -105,20 +105,10 @@
       font-size: 2.5vw;
     }
   
-    @keyframes slidefromleft {
-      from {
-        right: 200%;
-      }
-      to {
-        right: 30%;
-      }
-    }
-  
     .lists {
       position: relative;
       width: 100%;
-      margin-top: -5px;
-      background-color: rgb(125, 83, 124);
+      background-color: rgb(17, 157, 101);
       padding: 20px;
       left: 10px;
     }
@@ -128,15 +118,17 @@
     }
   
     .list1 {
-      top: 185%;
+      position: relative;
+      top: 100px;
     }
   
     .list2 {
-      top: 135%;
+      top: -35px;
     }
   
     .list3 {
-      top: 85%;
+      position: relative;
+      top: -175px;
     }
   
     .rightlist {
